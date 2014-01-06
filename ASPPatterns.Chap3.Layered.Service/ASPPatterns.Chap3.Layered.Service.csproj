@@ -30,7 +30,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ProductListRequest.cs" />
+    <Compile Include="ProductListResponse.cs" />
+    <Compile Include="ProductMapperExtensionMethods.cs" />
+    <Compile Include="ProductService.cs" />
+    <Compile Include="ProductViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -42,6 +46,9 @@
       <Project>{dc998743-d189-4422-b052-49e5488de25e}</Project>
       <Name>ASPPatterns.Chap3.Layered.Repository</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
