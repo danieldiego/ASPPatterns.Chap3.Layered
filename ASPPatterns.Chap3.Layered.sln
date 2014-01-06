@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Repository", "ASPPatterns.Chap3.Layered.Repsitory\ASPPatterns.Chap3.Layered.Repository.csproj", "{DC998743-D189-4422-B052-49E5488DE25E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Model", "ASPPatterns.Chap3.Layered.Model\ASPPatterns.Chap3.Layered.Model.csproj", "{7F038485-4F1D-4503-93D8-F7D84FC18A05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Service", "ASPPatterns.Chap3.Layered.Service\ASPPatterns.Chap3.Layered.Service.csproj", "{AD98F2BA-6297-4ABC-9A62-14E197E9FBD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Presentation", "ASPPatterns.Chap3.Layered.Presentation\ASPPatterns.Chap3.Layered.Presentation.csproj", "{CF58A5FA-2BAC-4EDA-9F5B-C9816378CE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.WebUI", "ASPPatterns.Chap3.Layered.WebUI\ASPPatterns.Chap3.Layered.WebUI.csproj", "{294E2912-5A50-42ED-B2B9-63E1A0CCF07C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Data Access Layer", "1. Data Access Layer", "{BB51F5EF-E03D-4130-9B8A-006A1BDD17D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Logic Layer", "2. Business Logic Layer", "{193181CB-AA75-45BE-9766-14AF41E13F6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Service Layer", "3. Service Layer", "{434DFD86-65A6-48C8-B018-EE61A85C3271}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Presentation Layer", "4. Presentation Layer", "{36AE652A-DA00-4C1A-9AB0-D6A894A5654F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. User Experience Layer", "5. User Experience Layer", "{9C040966-06CD-466E-B7FB-D8E661E98528}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC998743-D189-4422-B052-49E5488DE25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC998743-D189-4422-B052-49E5488DE25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC998743-D189-4422-B052-49E5488DE25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC998743-D189-4422-B052-49E5488DE25E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F038485-4F1D-4503-93D8-F7D84FC18A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F038485-4F1D-4503-93D8-F7D84FC18A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F038485-4F1D-4503-93D8-F7D84FC18A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F038485-4F1D-4503-93D8-F7D84FC18A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD98F2BA-6297-4ABC-9A62-14E197E9FBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD98F2BA-6297-4ABC-9A62-14E197E9FBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD98F2BA-6297-4ABC-9A62-14E197E9FBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD98F2BA-6297-4ABC-9A62-14E197E9FBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF58A5FA-2BAC-4EDA-9F5B-C9816378CE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF58A5FA-2BAC-4EDA-9F5B-C9816378CE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF58A5FA-2BAC-4EDA-9F5B-C9816378CE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF58A5FA-2BAC-4EDA-9F5B-C9816378CE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294E2912-5A50-42ED-B2B9-63E1A0CCF07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294E2912-5A50-42ED-B2B9-63E1A0CCF07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294E2912-5A50-42ED-B2B9-63E1A0CCF07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294E2912-5A50-42ED-B2B9-63E1A0CCF07C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC998743-D189-4422-B052-49E5488DE25E} = {BB51F5EF-E03D-4130-9B8A-006A1BDD17D8}
+		{7F038485-4F1D-4503-93D8-F7D84FC18A05} = {193181CB-AA75-45BE-9766-14AF41E13F6F}
+		{AD98F2BA-6297-4ABC-9A62-14E197E9FBD8} = {434DFD86-65A6-48C8-B018-EE61A85C3271}
+		{CF58A5FA-2BAC-4EDA-9F5B-C9816378CE5B} = {36AE652A-DA00-4C1A-9AB0-D6A894A5654F}
+		{294E2912-5A50-42ED-B2B9-63E1A0CCF07C} = {9C040966-06CD-466E-B7FB-D8E661E98528}
+	EndGlobalSection
+EndGlobal
